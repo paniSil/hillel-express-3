@@ -1,0 +1,38 @@
+doctype html
+html(lang="en")
+  head
+    title User list
+    link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css")
+
+  body
+    .container
+      h1.mt-4 User list (PUG)
+      div
+        a.btn.btn-outline-primary.btn-sm(href=`/`) To Main Page
+
+      if users.length === 0
+        div
+          p No users yet
+      else
+        ul.p-2.flex.row
+          each user in users 
+            li.card.m-2
+              div.card-body
+                div
+                  b Name: 
+                  span=user.name
+                div
+                  b Id: 
+                  span=user.id
+                div
+                  b Email: 
+                  span=user.email
+                div
+                  b Age: 
+                  span=user.age
+              div
+                a.btn.btn-primary.ml-4(href=`users/${user.id}`) Profile
+              br
+
+
+    

@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+  head
+    title Express and Pug Example
+    link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css")
+
+  body
+    .container
+      h1.mt-4 Welcome to Express and Pug Example
+      div
+        p= text
+      div.flex.row.pl-3
+        div
+          a.btn.btn-primary.mr-2(href=`users`) Users list
+        div
+          a.btn.btn-primary(href=`articles`) Articles list
+        

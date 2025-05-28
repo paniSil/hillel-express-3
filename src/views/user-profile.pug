@@ -1,0 +1,31 @@
+doctype html
+html(lang="en")
+  head
+    title User Profile: #{user.name}
+    link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css")
+
+  body
+    .container
+      h1.mt-4 User Profile #{user.id} (PUG)
+
+      if user
+        div 
+          strong Id: 
+          span=user.id
+        div 
+          strong Name: 
+          span=user.name
+        div 
+          strong Email: 
+          span=user.email
+        div 
+          strong Age: 
+          span=user.age
+      else 
+        div 
+          p User not found.
+
+      a.btn.btn-outline-primary.btn-sm.mt-4(href="/users") Back to User List
+
+
+    
