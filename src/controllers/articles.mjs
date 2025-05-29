@@ -14,7 +14,7 @@ const postArticlesHandler = (req, res) => {
     const { title, text } = req.body;
     const newArticle = { id: (articles.length + 1).toString(), title, text };
 
-    if (newArticle && newArticle.name) {
+    if (newArticle && newArticle.title) {
         res.status(201).send('Post articles route')
     } else {
         res.status(400).send('Bad Request')
