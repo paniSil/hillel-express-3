@@ -1,5 +1,0 @@
-0000000000000000000000000000000000000000 a17b8defc2eaf9852feca32d51420f0a1a4a2967 paniSil <mzwonko@gmail.com> 1748254331 +0300	commit (initial): Initial commit
-a17b8defc2eaf9852feca32d51420f0a1a4a2967 a8bccff5009d3665d7102e56f777d45c83e2d6e0 paniSil <mzwonko@gmail.com> 1748270871 +0300	commit: initial server
-a8bccff5009d3665d7102e56f777d45c83e2d6e0 418c05cf328e4a1b4ea7bf660b7c47a6f6a64908 paniSil <mzwonko@gmail.com> 1748367860 +0300	commit: server with middleware
-418c05cf328e4a1b4ea7bf660b7c47a6f6a64908 1ebd71859a253810bde91a9a665fc0bc6fa544dd paniSil <mzwonko@gmail.com> 1748367966 +0300	commit: Update .gitignore
-1ebd71859a253810bde91a9a665fc0bc6fa544dd 751510b4c312678e6188d0a9205f6eea7ee0402e paniSil <mzwonko@gmail.com> 1748417637 +0300	pull --ff --recurse-submodules --progress origin: Fast-forward
